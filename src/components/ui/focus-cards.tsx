@@ -3,6 +3,12 @@
 import React, { useState } from "react";
 import { cn } from "@/lib/utils";
 
+type CardType = {
+    title: string;
+    src: string;
+    description?: string; // Add this if `description` is used
+  };
+  
 export const Card = React.memo(
   ({
     card,
@@ -10,7 +16,7 @@ export const Card = React.memo(
     hovered,
     setHovered,
   }: {
-    card: any;
+    card: CardType;
     index: number;
     hovered: number | null;
     setHovered: React.Dispatch<React.SetStateAction<number | null>>;

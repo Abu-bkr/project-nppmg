@@ -1,5 +1,3 @@
-import Image from "next/image";
-import { Button } from "@/components/ui/button";
 import { Header } from "@/components/Header";
 import { ThreeDMarqueeDemo } from "@/components/HeroSection";
 import { Footer } from "@/components/Footer";

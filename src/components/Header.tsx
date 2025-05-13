@@ -1,6 +1,6 @@
 "use client"
 import * as React from "react"
-import { useState, useEffect } from "react"
+import { useState} from "react"
 import Link from "next/link"
 import Image from "next/image"
 import { motion, AnimatePresence, useScroll, useTransform } from "framer-motion"
@@ -137,23 +137,12 @@ const Content: menuContent[] = [
 export function Header() {
   const [activeMenu, setActiveMenu] = useState<string | null>(null);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const [isScrolled, setIsScrolled] = useState(false);
   const [isAuthOpen, setIsAuthOpen] = useState(false);
   const [authView, setAuthView] = useState<"signin" | "signup">("signin");
   const { scrollY } = useScroll();
   
-  const headerOpacity = useTransform(scrollY, [0, 50], [1, 0.98]);
-  const headerScale = useTransform(scrollY, [0, 50], [1, 0.98]);
   const blurStrength = useTransform(scrollY, [0, 100], [0, 8]);
   const logoScale = useTransform(scrollY, [0, 50], [1, 0.95]);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      setIsScrolled(window.scrollY > 0);
-    };
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
 
   const handleMouseEnter = (title: string) => {
     if (window.innerWidth >= 1024) {
