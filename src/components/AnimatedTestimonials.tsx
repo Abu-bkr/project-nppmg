@@ -5,7 +5,7 @@ export function AnimatedTestimonialsDemo() {
     {
       quote:
         "",
-      name: "Dr. SHRIMATI MANJU SIWACH",
+      name: "Dr. MANJU SIWACH",
       designation: "MLA, Modinagar",
       src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQECBi76FxIAlB527rTdEqG4vVqMZA4ghOudw&s",
     },
@@ -22,6 +22,13 @@ export function AnimatedTestimonialsDemo() {
       name: "Shri Narendra Mohan Mishra",
       designation: "Executive Officer (E.O), Nagar Palika Parishad Modinagar",
       src: "https://i.ibb.co/rRZT6D67/Screenshot-2025-05-14-151649.png",
+    },
+    {
+      quote:
+        "",
+      name: "Shrimati Neelam Gurjar",
+      designation: "(J.E. Civil), Nagar Palika Parishad Modinagar",
+      src: "https://live.staticflickr.com/65535/54518626106_88fc538077_m.jpg",
     },
     {
       quote:
