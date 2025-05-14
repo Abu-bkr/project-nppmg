@@ -21,7 +21,7 @@ export function AnimatedTestimonialsDemo() {
         "",
       name: "Shri Umesh Chandra Anand",
       designation: "(T.S) Nagar Palika Parishad Modinagar",
-      src: "https://i.ibb.co/R4txczTF/Screenshot-2025-05-14-150925.png",
+      src: "https://i.ibb.co/20QtF18Z/Screenshot-2025-05-14-152322.png",
     },
     {
       quote:
@@ -30,7 +30,13 @@ export function AnimatedTestimonialsDemo() {
       designation: "Revenue Inspector, Nagar Palika Parishad Modinagar",
       src: "https://i.ibb.co/bRrzgcj3/Screenshot-2025-05-14-150906.png",
     },  
-   
+    {
+      quote:
+        "",
+      name: "Shri Narendra Mohan Mishra",
+      designation: "Executive Officer (E.O), Nagar Palika Parishad Modinagar",
+      src: "https://i.ibb.co/rRZT6D67/Screenshot-2025-05-14-151649.png",
+    },
   ];
   return <AnimatedTestimonials testimonials={testimonials} />;
 }
