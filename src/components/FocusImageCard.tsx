@@ -10,15 +10,15 @@ export function FocusCardsD() {
         },
       
         {
-          title: "Dr. Zakir Husain",
-          description: "3rd President (1967–1969), first Muslim president & education reformer",
-          src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSflyy4TjGfXO3e98csSEIeo7Txo4uMVyYcRY9akfr8mb-6NSKLkkN6ubCK0aoHk0lCGUVBrxmijQ0q8YqGRkN1Bw"
+          title: "Atal Bihari Vajpayee",
+          description: "Atal Bihari Vajpayee (25 December 1924 – 16 August 2018) was an Indian poet, writer and statesman who served as the prime minister of India",
+          src: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Atal_Bihari_Vajpayee_%28crop_2%29.jpg/500px-Atal_Bihari_Vajpayee_%28crop_2%29.jpg"
         },
      
         {
-          title: "Fakhruddin Ali Ahmed",
-          description: "5th President (1974–1977), signed the controversial Emergency proclamation",
-          src: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/President_Fakhruddin_Ali_Ahmed.jpg/375px-President_Fakhruddin_Ali_Ahmed.jpg"
+          title: "Narendra Modi",
+          description: "Current Primeminister of India.",
+          src: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Shri_Narendra_Modi%2C_Prime_Minister_of_India_%283x4_cropped%29.jpg/500px-Shri_Narendra_Modi%2C_Prime_Minister_of_India_%283x4_cropped%29.jpg"
         },
       
         {

@@ -188,7 +188,7 @@ export function Header() {
                     transition={{ duration: 0.5 }}
                     className="text-xl font-bold text-gray-900"
                   >
-                   नगर पालिका परिषद मोदीनगर-गाजियाबाद
+                   नगर पालिका परिषद मोदीनगर
                   </motion.h1>
                   <motion.p 
                     initial={{ opacity: 0, y: -10 }}
@@ -196,7 +196,7 @@ export function Header() {
                     transition={{ duration: 0.5, delay: 0.1 }}
                     className="text-sm text-gray-600"
                   >
-                   Nagar Palika Parishad Modinagar, Ghaziabad 
+                   Nagar Palika Parishad Modinagar
                   </motion.p>
                 </div>
               </Link>
