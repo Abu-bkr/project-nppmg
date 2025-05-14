@@ -91,8 +91,8 @@ export function Footer() {
                 />
               </div>
               <div>
-                <h3 className="text-lg font-bold text-gray-900">मोदीनगर नगर</h3>
-                <p className="text-sm text-gray-600">Modinagar Nagar</p>
+                <h3 className="text-lg font-bold text-gray-900">नगर पालिका परिषद मोदीनगर</h3>
+                <p className="text-sm text-gray-600">Nagar Palika Parishad Modinagar</p>
               </div>
             </Link>
             <p className="text-sm text-gray-600">

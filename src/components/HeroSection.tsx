@@ -38,9 +38,9 @@ export function ThreeDMarqueeDemo() {
   return (
     <div className="relative mx-auto my-10 flex h-screen w-full max-w-7xl flex-col items-center justify-center overflow-hidden rounded-3xl">
     <h2 className="relative z-20 mx-auto max-w-4xl text-center text-2xl font-bold text-balance text-white md:text-4xl lg:text-6xl">
-      Nagar Palika PariShad Modinagar,
+      Nagar Palika Parishad
       <span className="relative z-20 inline-block rounded-xl bg-blue-500/40 px-4 py-1 text-white underline decoration-sky-500 decoration-[6px] underline-offset-[16px] backdrop-blur-sm">
-        Ghaziabad
+         Modinagar.
       </span>{" "}
       
     </h2>
