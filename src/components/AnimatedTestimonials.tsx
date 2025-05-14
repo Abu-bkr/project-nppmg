@@ -10,19 +10,14 @@ export function AnimatedTestimonialsDemo() {
       src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQECBi76FxIAlB527rTdEqG4vVqMZA4ghOudw&s",
     },
     {
-        quote:
-          "",
-        name: "Vinod Vaishali",
-        designation: "Chaiman Nagar Palika Parishad Modinagar",
-        src: "https://drive.google.com/uc?export=view&id=AKGpihZp1zZFokAMSnr3_PSxD09hKTXL8Q1TtS-j8LJd6qyxp4jmLxku7kGHidhir2NjdC85y4TvhZUleCtECDec_IOdo-7ZROZafw",
-      },
-      {
-        quote:
-          "",
-        name: "Dr. SRIMATI MANJU SIWACH BJP MLA",
-        designation: "MLA Modinagar",
-        src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQECBi76FxIAlB527rTdEqG4vVqMZA4ghOudw&s",
-      },
+      quote:
+        "",
+      name: "Dr. SRIMATI MANJU SIWACH BJP MLA",
+      designation: "MLA Modinagar",
+      src: "https://i.ibb.co/GQ08SxH3/Whats-App-Image-2025-05-14-at-2-49-13-PM.jpg",
+    },
+    
+      
    
   ];
   return <AnimatedTestimonials testimonials={testimonials} />;
