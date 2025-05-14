@@ -12,8 +12,8 @@ export function AnimatedTestimonialsDemo() {
     {
       quote:
         "",
-      name: "Dr. SRIMATI MANJU SIWACH BJP MLA",
-      designation: "MLA Modinagar",
+      name: "Vinod Vaishali",
+      designation: "Chairman Nagar Palika Parishad Modinagar",
       src: "https://i.ibb.co/GQ08SxH3/Whats-App-Image-2025-05-14-at-2-49-13-PM.jpg",
     },
     
